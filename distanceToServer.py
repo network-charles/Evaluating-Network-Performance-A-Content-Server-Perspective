@@ -1,8 +1,5 @@
 import math
  
- 
- 
- 
 # https://en.wikipedia.org/wiki/Haversine_formula
 # https://www.movable-type.co.uk/scripts/latlong.html
  
@@ -21,10 +18,8 @@ def distance(origin, destination):
  
     return d
  
-
 origin = (6.5244, 3.3792)              # Lagos
 destination = (37.3387, 121.8853)         
- 
  
 print("Distance in KM : {} ".format(distance(origin, destination)))
 print("Distance in MI : {}".format(
